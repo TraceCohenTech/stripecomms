@@ -17,25 +17,19 @@ export default function Navigation() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setVisible(window.scrollY > 400);
-
+      setVisible(window.scrollY > 300);
       const sectionElements = sections.map((s) => ({
         id: s.id,
         el: document.getElementById(s.id),
       }));
-
       for (let i = sectionElements.length - 1; i >= 0; i--) {
         const el = sectionElements[i].el;
-        if (el) {
-          const rect = el.getBoundingClientRect();
-          if (rect.top <= 200) {
-            setActiveSection(sectionElements[i].id);
-            break;
-          }
+        if (el && el.getBoundingClientRect().top <= 200) {
+          setActiveSection(sectionElements[i].id);
+          break;
         }
       }
     };
-
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -47,24 +41,24 @@ export default function Navigation() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
-          transition={{ duration: 0.3 }}
-          className="fixed top-4 left-1/2 -translate-x-1/2 z-40 hidden lg:flex items-center gap-1 bg-white/80 backdrop-blur-xl border border-divider rounded-full px-2 py-1.5 shadow-sm"
+          transition={{ duration: 0.25 }}
+          className="fixed top-3 left-1/2 -translate-x-1/2 z-40 hidden lg:flex items-center gap-0.5 bg-white/90 backdrop-blur-xl border border-stripe-border rounded-full px-1.5 py-1 shadow-[0_1px_3px_rgba(0,0,0,0.08)]"
         >
           {sections.map((section) => (
             <a
               key={section.id}
               href={`#${section.id}`}
-              className={`relative px-4 py-1.5 text-xs font-medium tracking-wide uppercase transition-colors duration-200 rounded-full ${
+              className={`relative px-3.5 py-1 text-[11px] font-semibold tracking-[0.08em] uppercase transition-colors duration-200 rounded-full ${
                 activeSection === section.id
-                  ? "text-accent"
-                  : "text-muted hover:text-ink"
+                  ? "text-stripe-indigo"
+                  : "text-stripe-slate/60 hover:text-stripe-navy"
               }`}
             >
               {activeSection === section.id && (
                 <motion.div
                   layoutId="activeSection"
-                  className="absolute inset-0 bg-accent-soft rounded-full"
-                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                  className="absolute inset-0 bg-stripe-indigo/[0.07] rounded-full"
+                  transition={{ type: "spring", stiffness: 400, damping: 30 }}
                 />
               )}
               <span className="relative z-10">{section.label}</span>

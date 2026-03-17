@@ -9,14 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#1a1a1a",
-        muted: "#6b6b6b",
-        subtle: "#999",
-        divider: "#e5e5e5",
-        surface: "#fafaf9",
-        card: "#f5f5f4",
-        accent: "#635bff",
-        "accent-soft": "rgba(99, 91, 255, 0.08)",
+        // Stripe brand palette
+        stripe: {
+          indigo: "#635BFF",
+          navy: "#0A2540",
+          cyan: "#00D4AA",
+          blue: "#0073E6",
+          slate: "#425466",
+          light: "#F6F9FC",
+          border: "#E3E8EE",
+          "border-light": "#EBEEF1",
+        },
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],

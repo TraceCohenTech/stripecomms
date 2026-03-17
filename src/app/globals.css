@@ -11,40 +11,54 @@ html {
 }
 
 body {
-  background: #fafaf9;
-  color: #1a1a1a;
+  background: #F6F9FC;
+  color: #0A2540;
   font-family: 'Inter', system-ui, sans-serif;
 }
 
 ::selection {
-  background: rgba(99, 91, 255, 0.12);
-  color: #1a1a1a;
+  background: rgba(99, 91, 255, 0.15);
+  color: #0A2540;
 }
 
-/* Subtle grid background */
-.grid-bg {
-  background-image:
-    linear-gradient(rgba(0,0,0,0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,0,0,0.025) 1px, transparent 1px);
-  background-size: 60px 60px;
+/* Stripe-style mesh gradient for hero */
+.stripe-gradient-bg {
+  background:
+    radial-gradient(ellipse 80% 60% at 70% 20%, rgba(99, 91, 255, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 30% 80%, rgba(0, 212, 170, 0.05) 0%, transparent 50%),
+    #F6F9FC;
 }
 
-/* Flow line animation */
+/* Subtle dot pattern */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(10, 37, 64, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Flow animations */
 @keyframes flowPulse {
-  0%, 100% { opacity: 0.3; }
+  0%, 100% { opacity: 0.2; }
   50% { opacity: 1; }
 }
 
 .flow-pulse { animation: flowPulse 3s ease-in-out infinite; }
-.flow-pulse-delay-1 { animation-delay: 0.6s; }
-.flow-pulse-delay-2 { animation-delay: 1.2s; }
-.flow-pulse-delay-3 { animation-delay: 1.8s; }
-.flow-pulse-delay-4 { animation-delay: 2.4s; }
+.flow-pulse-delay-1 { animation-delay: 0.5s; }
+.flow-pulse-delay-2 { animation-delay: 1.0s; }
+.flow-pulse-delay-3 { animation-delay: 1.5s; }
+.flow-pulse-delay-4 { animation-delay: 2.0s; }
 
 @keyframes dash {
-  to { stroke-dashoffset: -20; }
+  to { stroke-dashoffset: -16; }
+}
+.animate-dash {
+  animation: dash 2s linear infinite;
 }
 
-.animate-dash {
-  animation: dash 1.5s linear infinite;
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+.gradient-shift {
+  background-size: 200% 200%;
+  animation: gradientShift 8s ease infinite;
 }

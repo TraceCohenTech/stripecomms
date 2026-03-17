@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="py-12 border-t border-divider">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 text-center">
-        <p className="text-sm text-subtle tracking-wide">
+    <footer className="py-8 border-t border-stripe-border">
+      <div className="max-w-6xl mx-auto px-6 md:px-10 lg:px-16 text-center">
+        <p className="text-xs text-stripe-slate/40 tracking-wide">
           Prepared as a strategic communications critique.
         </p>
       </div>
