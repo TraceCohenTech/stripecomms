@@ -102,7 +102,7 @@ export default function WhatPeopleDontKnow() {
           viewport={{ once: true }}
           variants={fadeUp}
           transition={{ delay: 0.4, duration: 0.5 }}
-          className="mt-6 text-[13px] text-stripe-slate/70 max-w-lg"
+          className="mt-6 text-sm text-stripe-slate max-w-lg"
         >
           Each of these would be a defining product at any other company.
           Together, they&rsquo;re an extraordinary story waiting to be told more loudly.

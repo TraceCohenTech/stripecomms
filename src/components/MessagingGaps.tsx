@@ -50,7 +50,7 @@ export default function MessagingGaps() {
           <div className="p-6 md:p-8 bg-white">
             <div className="flex items-center gap-2 mb-6">
               <div className="w-1.5 h-1.5 rounded-full bg-stripe-cyan" />
-              <span className="text-[11px] font-semibold tracking-[0.1em] uppercase text-stripe-slate/70">
+              <span className="text-[11px] font-semibold tracking-[0.1em] uppercase text-stripe-slate">
                 What Stripe already does well
               </span>
             </div>
@@ -62,7 +62,7 @@ export default function MessagingGaps() {
                     <span className="text-sm font-medium text-stripe-navy group-hover:text-stripe-indigo transition-colors duration-200 block">
                       {item.text}
                     </span>
-                    <span className="text-xs text-stripe-slate/70">{item.sub}</span>
+                    <span className="text-xs text-stripe-slate">{item.sub}</span>
                   </div>
                 </div>
               ))}

@@ -119,7 +119,7 @@ export default function PlatformView() {
           className="mt-8 flex items-start gap-4 px-1"
         >
           <div className="w-0.5 h-14 bg-gradient-to-b from-stripe-indigo to-stripe-cyan rounded-full shrink-0 mt-1" />
-          <p className="font-editorial text-lg md:text-xl italic text-stripe-navy/70 leading-relaxed">
+          <p className="font-editorial text-lg md:text-xl italic text-stripe-navy/80 leading-relaxed">
             Every layer exists. The architecture is implicit in the product.
             What&rsquo;s missing is making that architecture the story.
           </p>

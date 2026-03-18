@@ -21,6 +21,15 @@ body {
   color: #0A2540;
 }
 
+/* Prevent orphan words globally */
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p, li, span, a {
+  text-wrap: pretty;
+}
+
 /* Stripe-style mesh gradient for hero */
 .stripe-gradient-bg {
   background:

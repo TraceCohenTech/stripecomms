@@ -39,7 +39,7 @@ export default function Hero() {
 
             <motion.p
               custom={2} initial="hidden" animate="visible" variants={fadeUp}
-              className="text-[17px] md:text-lg text-stripe-slate leading-relaxed max-w-lg mb-8"
+              className="text-[17px] md:text-lg text-stripe-slate leading-relaxed max-w-[28rem] mb-8"
             >
               Stripe has evolved from payments API to financial operating system.
               There&rsquo;s an extraordinary opportunity to tell that story more explicitly
