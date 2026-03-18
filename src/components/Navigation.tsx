@@ -5,9 +5,12 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const sections = [
   { id: "thesis", label: "Thesis" },
+  { id: "scale", label: "Scale" },
   { id: "critique", label: "Critique" },
   { id: "platform", label: "Platform" },
+  { id: "blind-spot", label: "Blind Spots" },
   { id: "gaps", label: "Gaps" },
+  { id: "agentic", label: "Agentic" },
   { id: "opportunities", label: "Opportunities" },
 ];
 
