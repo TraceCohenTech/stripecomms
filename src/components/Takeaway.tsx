@@ -34,7 +34,7 @@ export default function Takeaway() {
           <p className="mt-6 text-[15px] md:text-base text-stripe-slate max-w-xl mx-auto leading-relaxed">
             Stripe has the scale, the vision, and the products to define the next era of internet commerce.
             The opportunity is to communicate less like a product suite and more like
-            the system beneath the economy — because that&rsquo;s what it already is.
+            the system beneath the economy. Because that&rsquo;s what it already is.
           </p>
 
           <div className="w-10 h-0.5 bg-stripe-border mx-auto mt-8 rounded-full" />

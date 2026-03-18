@@ -42,8 +42,8 @@ export default function Hero() {
               className="text-[17px] md:text-lg text-stripe-slate leading-relaxed max-w-lg mb-8"
             >
               Stripe has evolved from payments API to financial operating system.
-              There&rsquo;s an extraordinary opportunity to tell that story more explicitly — and reach
-              entirely new audiences because of it.
+              There&rsquo;s an extraordinary opportunity to tell that story more explicitly
+              and reach entirely new audiences because of it.
             </motion.p>
 
             <motion.div

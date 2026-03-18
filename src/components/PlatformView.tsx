@@ -82,7 +82,7 @@ export default function PlatformView() {
                     {layer.action}
                   </span>
                 </div>
-                <span className="hidden md:block text-xs text-stripe-slate/60">
+                <span className="hidden md:block text-xs text-stripe-slate/80">
                   {layer.desc}
                 </span>
                 <div className="flex flex-wrap gap-1.5 justify-end md:justify-start">

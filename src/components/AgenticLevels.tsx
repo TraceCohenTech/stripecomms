@@ -6,7 +6,7 @@ const levels = [
   {
     level: 1,
     name: "Eliminating web forms",
-    description: "Send a URL to your agent, it fills out payment and shipping. The system isn't making decisions — just typing and clicking 'buy' on your behalf.",
+    description: "Send a URL to your agent, it fills out payment and shipping. The system isn't making decisions, just typing and clicking 'buy' on your behalf.",
     status: "now",
   },
   {
@@ -63,7 +63,7 @@ export default function AgenticLevels() {
             Stripe already defined the future of AI commerce
           </h2>
           <p className="text-stripe-slate text-[15px] mt-2 max-w-lg">
-            Five levels of agentic commerce — like self-driving levels for autonomous buying.
+            Five levels of agentic commerce, like self-driving levels for autonomous buying.
             This framework could define an entire industry. Right now it lives in a PDF.
           </p>
         </motion.div>
@@ -116,7 +116,7 @@ export default function AgenticLevels() {
           className="mt-8 flex items-start gap-3"
         >
           <div className="w-0.5 h-10 bg-gradient-to-b from-stripe-indigo to-stripe-cyan rounded-full shrink-0 mt-0.5" />
-          <p className="text-sm text-stripe-slate/60 leading-relaxed max-w-lg">
+          <p className="text-sm text-stripe-slate leading-relaxed max-w-lg">
             Stripe already built the tools: Agentic Commerce Protocol with OpenAI, shopping in ChatGPT, machine payments via stablecoins. The industry is at Level 1. Stripe is building for Level 5. That&rsquo;s a story worth telling loudly.
           </p>
         </motion.div>

@@ -106,7 +106,7 @@ export default function StripeEconomy() {
               <p className="text-sm text-white/70 font-medium leading-snug">
                 {stat.label}
               </p>
-              <p className="text-[11px] text-white/50 mt-1">
+              <p className="text-xs text-white/70 mt-1">
                 {stat.context}
               </p>
             </motion.div>
@@ -121,9 +121,9 @@ export default function StripeEconomy() {
           className="mt-8 flex items-start gap-3"
         >
           <div className="w-0.5 h-10 bg-gradient-to-b from-stripe-indigo to-stripe-cyan rounded-full shrink-0 mt-0.5" />
-          <p className="text-sm text-white/60 leading-relaxed max-w-lg">
+          <p className="text-sm text-white/80 leading-relaxed max-w-lg">
             Most of these stats live only in the annual letter. Making them central to the narrative
-            could unlock entirely new audiences — CFOs, board members, policymakers — who don&rsquo;t yet understand the scale.
+            could unlock entirely new audiences: CFOs, board members, policymakers who don&rsquo;t yet understand the scale.
           </p>
         </motion.div>
       </div>

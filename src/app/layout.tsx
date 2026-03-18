@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Stripe's Biggest Untold Story — A Strategic Communications Opportunity",
+  title: "Stripe's Biggest Untold Story | A Strategic Communications Opportunity",
   description: "Stripe has built something far bigger than payments. Here's the opportunity to tell that story more explicitly.",
   openGraph: {
     title: "Stripe's Biggest Untold Story",

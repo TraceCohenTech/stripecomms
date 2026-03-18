@@ -7,7 +7,7 @@ const critiques = [
     number: "01",
     label: "Expand beyond the developer audience",
     description:
-      "Stripe's developer experience is legendary — and that's a strength. But the product now serves CFOs, operations leaders, and platform founders. There's an opportunity to speak to business outcomes alongside technical elegance.",
+      "Stripe's developer experience is legendary, and that's a real strength. But the product now serves CFOs, operations leaders, and platform founders. There's an opportunity to speak to business outcomes alongside technical elegance.",
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
         <path d="M6 7l3 3-3 3M11 13h3" stroke="#635BFF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -19,7 +19,7 @@ const critiques = [
     number: "02",
     label: "Connect the products into one story",
     description:
-      "Each product is communicated brilliantly on its own. The opportunity is making the system-level narrative explicit — showing how Payments, Treasury, Connect, and Billing compose into something greater than any individual tool.",
+      "Each product is communicated brilliantly on its own. The opportunity is making the system-level narrative explicit: showing how Payments, Treasury, Connect, and Billing compose into something greater than any individual tool.",
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
         <rect x="2" y="2" width="6" height="6" rx="1" stroke="#635BFF" strokeWidth="1.5"/>
@@ -33,7 +33,7 @@ const critiques = [
     number: "03",
     label: "Lead with data authority",
     description:
-      "Stripe processes 1.6% of global GDP and sees economic signals before almost anyone. That vantage point is an extraordinary asset for thought leadership — owning the narrative on internet commerce the way Bloomberg owns financial data.",
+      "Stripe processes 1.6% of global GDP and sees economic signals before almost anyone. That vantage point is an extraordinary asset for thought leadership: owning the narrative on internet commerce the way Bloomberg owns financial data.",
     icon: (
       <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
         <path d="M3 17V10M7 17V7M11 17V4M15 17V8M19 17V2" stroke="#635BFF" strokeWidth="1.5" strokeLinecap="round"/>
@@ -76,7 +76,7 @@ export default function CoreCritique() {
               className="group relative bg-white rounded-xl p-6 border border-stripe-border hover:border-stripe-indigo/30 hover:shadow-[0_4px_16px_rgba(99,91,255,0.08)] transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-4">
-                <span className="text-[11px] font-mono font-bold text-stripe-indigo/50">
+                <span className="text-[11px] font-mono font-bold text-stripe-indigo/70">
                   {item.number}
                 </span>
                 <div className="opacity-40 group-hover:opacity-100 transition-opacity duration-300">

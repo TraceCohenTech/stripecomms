@@ -54,7 +54,7 @@ export default function Navigation() {
               className={`relative px-3.5 py-1 text-[11px] font-semibold tracking-[0.08em] uppercase transition-colors duration-200 rounded-full ${
                 activeSection === section.id
                   ? "text-stripe-indigo"
-                  : "text-stripe-slate/60 hover:text-stripe-navy"
+                  : "text-stripe-slate hover:text-stripe-navy"
               }`}
             >
               {activeSection === section.id && (

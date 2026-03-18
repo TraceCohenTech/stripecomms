@@ -46,7 +46,7 @@ export default function MessagingGaps() {
           transition={{ delay: 0.1, duration: 0.5 }}
           className="grid md:grid-cols-2 overflow-hidden rounded-xl border border-stripe-border"
         >
-          {/* Current — what's working */}
+          {/* Current: what's working */}
           <div className="p-6 md:p-8 bg-white">
             <div className="flex items-center gap-2 mb-6">
               <div className="w-1.5 h-1.5 rounded-full bg-stripe-cyan" />
@@ -69,11 +69,11 @@ export default function MessagingGaps() {
             </div>
           </div>
 
-          {/* Next — where it could go */}
+          {/* Next: where it could go */}
           <div className="p-6 md:p-8 bg-stripe-navy text-white">
             <div className="flex items-center gap-2 mb-6">
               <div className="w-1.5 h-1.5 rounded-full bg-stripe-indigo" />
-              <span className="text-[11px] font-semibold tracking-[0.1em] uppercase text-white/60">
+              <span className="text-[11px] font-semibold tracking-[0.1em] uppercase text-white/80">
                 Where the messaging could expand
               </span>
             </div>
@@ -85,7 +85,7 @@ export default function MessagingGaps() {
                     <span className="text-sm font-medium text-white/80 group-hover:text-white transition-colors duration-200 block">
                       {item.text}
                     </span>
-                    <span className="text-xs text-white/50">{item.sub}</span>
+                    <span className="text-xs text-white/70">{item.sub}</span>
                   </div>
                 </div>
               ))}

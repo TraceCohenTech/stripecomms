@@ -60,7 +60,7 @@ export default function LetterVsHomepage() {
                 <div className="p-5 md:p-6 bg-white border-b md:border-b-0 md:border-r border-stripe-border">
                   <div className="flex items-center gap-1.5 mb-3">
                     <div className="w-2 h-2 rounded-full bg-stripe-slate/20" />
-                    <span className="text-[10px] font-semibold tracking-[0.1em] uppercase text-stripe-slate/60">
+                    <span className="text-[10px] font-semibold tracking-[0.1em] uppercase text-stripe-slate">
                       stripe.com today
                     </span>
                   </div>
@@ -72,7 +72,7 @@ export default function LetterVsHomepage() {
                 <div className="p-5 md:p-6 bg-stripe-light">
                   <div className="flex items-center gap-1.5 mb-3">
                     <div className="w-2 h-2 rounded-full bg-stripe-cyan" />
-                    <span className="text-[10px] font-semibold tracking-[0.1em] uppercase text-stripe-slate/60">
+                    <span className="text-[10px] font-semibold tracking-[0.1em] uppercase text-stripe-slate">
                       2025 Annual Letter
                     </span>
                   </div>

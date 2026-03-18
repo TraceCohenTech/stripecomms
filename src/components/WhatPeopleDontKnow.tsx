@@ -6,7 +6,7 @@ const items = [
   {
     category: "Infrastructure",
     headline: "They built their own blockchain",
-    detail: "Tempo — purpose-built for payments with sub-second finality, incubated with Paradigm. Visa, Nubank, and Shopify are already testing it. Designed for agentic payments and microtransactions. This alone would be a headline product at most companies.",
+    detail: "Tempo is purpose-built for payments with sub-second finality, incubated with Paradigm. Visa, Nubank, and Shopify are already testing it. Designed for agentic payments and microtransactions. This alone would be a headline product at most companies.",
   },
   {
     category: "AI Commerce",
@@ -16,22 +16,22 @@ const items = [
   {
     category: "Machine Economy",
     headline: "They launched payments between AI agents",
-    detail: "Machine payments let developers charge agents directly for API calls, MCP usage, and HTTP requests via stablecoin micropayments. Autonomous agents are emerging as a new customer type — and Stripe is already serving them.",
+    detail: "Machine payments let developers charge agents directly for API calls, MCP usage, and HTTP requests via stablecoin micropayments. Autonomous agents are emerging as a new customer type, and Stripe is already serving them.",
   },
   {
     category: "Lending",
     headline: "They're becoming a new kind of bank",
-    detail: "Stripe Capital has funded 81,000+ businesses. A randomized study showed recipients grew 27 percentage points faster. Instead of credit scores, they use real-time revenue data — a fundamentally better lending model that could reshape small business finance.",
+    detail: "Stripe Capital has funded 81,000+ businesses. A randomized study showed recipients grew 27 percentage points faster. Instead of credit scores, they use real-time revenue data. It's a fundamentally better lending model that could reshape small business finance.",
   },
   {
     category: "Stablecoins",
     headline: "They process $400B in stablecoin payments",
-    detail: "Bridge, their stablecoin orchestration platform, saw volume quadruple. Klarna launched a stablecoin on their testnet. A YC founder can now receive funding, hold it, and pay engineers — all in stablecoins through Stripe. The future of money movement is already here.",
+    detail: "Bridge, their stablecoin orchestration platform, saw volume quadruple. Klarna launched a stablecoin on their testnet. A YC founder can now receive funding, hold it, and pay engineers, all in stablecoins through Stripe. The future of money movement is already here.",
   },
   {
     category: "Culture",
     headline: "They run a publishing house and a magazine",
-    detail: "Stripe Press has sold over 1M books on ideas that shape progress. Works in Progress is a magazine about underrated ideas to improve the world — now in print. Few companies think this broadly about their role in civilization. This is brand equity that's hard to replicate.",
+    detail: "Stripe Press has sold over 1M books on ideas that shape progress. Works in Progress is a magazine about underrated ideas to improve the world, now in print. Few companies think this broadly about their role in civilization. This is brand equity that's hard to replicate.",
   },
 ];
 
@@ -58,7 +58,7 @@ export default function WhatPeopleDontKnow() {
           </h2>
           <p className="text-stripe-slate text-[15px] mt-2 max-w-lg">
             Ask a smart business leader what Stripe does. They&rsquo;ll say &ldquo;payments.&rdquo;
-            That answer covers about 20% of the picture — which means 80% is opportunity.
+            That answer covers about 20% of the picture, which means 80% is opportunity.
           </p>
         </motion.div>
 

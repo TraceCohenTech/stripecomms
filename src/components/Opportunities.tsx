@@ -7,21 +7,21 @@ const opportunities = [
     number: "01",
     title: "Invite CFOs into the conversation",
     description:
-      "Finance leaders, COOs, and founders making platform decisions are an enormous untapped audience. A narrative about business architecture — not just APIs — could open doors that developer marketing alone cannot.",
+      "Finance leaders, COOs, and founders making platform decisions are an enormous untapped audience. A narrative about business architecture, not just APIs, could open doors that developer marketing alone cannot.",
     tag: "Audience",
   },
   {
     number: "02",
     title: "Name and own the financial OS category",
     description:
-      "No company is better positioned to define this category. By naming it explicitly, Stripe can shape the competitive frame — rather than letting analysts, banks, or competitors do it with less product substance.",
+      "No company is better positioned to define this category. By naming it explicitly, Stripe can shape the competitive frame rather than letting analysts, banks, or competitors do it with less product substance.",
     tag: "Positioning",
   },
   {
     number: "03",
     title: "Turn economic data into thought leadership",
     description:
-      "Stripe sees real-time signals across millions of businesses globally. That data could power an authoritative voice on internet commerce — like Bloomberg for the API economy. The annual letter already does this brilliantly; the opportunity is doing it year-round.",
+      "Stripe sees real-time signals across millions of businesses globally. That data could power an authoritative voice on internet commerce, like Bloomberg for the API economy. The annual letter already does this brilliantly; the opportunity is doing it year-round.",
     tag: "Authority",
   },
   {
@@ -68,7 +68,7 @@ export default function Opportunities() {
             >
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center gap-2">
-                  <span className="text-[10px] font-mono font-bold text-stripe-indigo/40">
+                  <span className="text-[10px] font-mono font-bold text-stripe-indigo/70">
                     {item.number}
                   </span>
                   <span className="text-[10px] font-semibold tracking-[0.08em] uppercase text-stripe-cyan bg-stripe-cyan/10 px-2 py-0.5 rounded-full">
