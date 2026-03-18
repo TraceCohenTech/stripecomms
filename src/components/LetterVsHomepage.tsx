@@ -6,17 +6,17 @@ const comparisons = [
   {
     homepage: "Financial infrastructure to grow your revenue.",
     letter: "We write this letter at what may well turn out to be the advent of a different and hopefully much more beneficent singularity.",
-    note: "Homepage: generic B2B SaaS. Letter: civilizational thinking.",
+    note: "The letter captures a vision that could resonate far beyond developers.",
   },
   {
     homepage: "Accept payments, offer financial services, and implement custom revenue models.",
     letter: "Competitive markets are a sorting machine. They direct profits, capital, and talent to the places of greatest impact.",
-    note: "Homepage: feature list. Letter: economic philosophy.",
+    note: "The economic thinking is world-class. It could become the brand voice.",
   },
   {
     homepage: "Enterprise Payment Solutions for Large Businesses.",
     letter: "We're in a similarly rare moment now with agentic commerce, which has the potential to be generationally impactful.",
-    note: "Homepage: commodity framing. Letter: defining the future.",
+    note: "The founders think in decades. The website could reflect that ambition.",
   },
 ];
 
@@ -36,13 +36,13 @@ export default function LetterVsHomepage() {
           className="mb-10"
         >
           <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-stripe-indigo">
-            The Evidence
+            The Gap
           </span>
           <h2 className="font-editorial text-[1.75rem] md:text-[2rem] mt-2 tracking-[-0.01em] text-stripe-navy">
-            The annual letter vs. the homepage
+            The annual letter shows how big the story could be
           </h2>
           <p className="text-stripe-slate text-[15px] mt-2 max-w-lg">
-            The Collisons think at civilizational scale. The website communicates at product-feature scale. The gap is the critique.
+            The Collisons think at civilizational scale. There&rsquo;s an opportunity to bring more of that vision into the everyday brand.
           </p>
         </motion.div>
 
@@ -57,12 +57,11 @@ export default function LetterVsHomepage() {
               className="group rounded-xl border border-stripe-border overflow-hidden hover:border-stripe-indigo/20 transition-colors duration-300"
             >
               <div className="grid md:grid-cols-2">
-                {/* Homepage side */}
                 <div className="p-5 md:p-6 bg-white border-b md:border-b-0 md:border-r border-stripe-border">
                   <div className="flex items-center gap-1.5 mb-3">
-                    <div className="w-2 h-2 rounded-full bg-red-400/60" />
+                    <div className="w-2 h-2 rounded-full bg-stripe-slate/20" />
                     <span className="text-[10px] font-semibold tracking-[0.1em] uppercase text-stripe-slate/40">
-                      stripe.com
+                      stripe.com today
                     </span>
                   </div>
                   <p className="text-sm text-stripe-slate/70 leading-relaxed font-medium">
@@ -70,7 +69,6 @@ export default function LetterVsHomepage() {
                   </p>
                 </div>
 
-                {/* Letter side */}
                 <div className="p-5 md:p-6 bg-stripe-light">
                   <div className="flex items-center gap-1.5 mb-3">
                     <div className="w-2 h-2 rounded-full bg-stripe-cyan" />
@@ -84,7 +82,6 @@ export default function LetterVsHomepage() {
                 </div>
               </div>
 
-              {/* Verdict bar */}
               <div className="px-5 md:px-6 py-2.5 bg-stripe-navy/[0.03] border-t border-stripe-border">
                 <p className="text-[11px] text-stripe-indigo font-medium">
                   {item.note}

@@ -5,30 +5,30 @@ import { motion } from "framer-motion";
 const opportunities = [
   {
     number: "01",
-    title: "Speak to CFOs, not just developers",
+    title: "Invite CFOs into the conversation",
     description:
-      "Finance leaders, COOs, and founders making platform decisions need a narrative about business architecture, not just technical implementation.",
+      "Finance leaders, COOs, and founders making platform decisions are an enormous untapped audience. A narrative about business architecture — not just APIs — could open doors that developer marketing alone cannot.",
     tag: "Audience",
   },
   {
     number: "02",
-    title: "Own the financial OS category",
+    title: "Name and own the financial OS category",
     description:
-      "No company is better positioned to define this category. If Stripe doesn't name it explicitly, a legacy bank or weaker competitor will frame the narrative instead.",
+      "No company is better positioned to define this category. By naming it explicitly, Stripe can shape the competitive frame — rather than letting analysts, banks, or competitors do it with less product substance.",
     tag: "Positioning",
   },
   {
     number: "03",
-    title: "Use economic data as authority",
+    title: "Turn economic data into thought leadership",
     description:
-      "Stripe sees real-time signals across millions of businesses. This data could power an authoritative voice on internet commerce — Bloomberg logic, applied to Stripe's vantage point.",
+      "Stripe sees real-time signals across millions of businesses globally. That data could power an authoritative voice on internet commerce — like Bloomberg for the API economy. The annual letter already does this brilliantly; the opportunity is doing it year-round.",
     tag: "Authority",
   },
   {
     number: "04",
-    title: "Define AI-native commerce",
+    title: "Become the voice of AI-native commerce",
     description:
-      "As commerce automates, the infrastructure layer matters more than ever. Stripe can frame itself as the financial intelligence layer that AI-native businesses build on.",
+      "Stripe has the framework (5 levels), the protocol (ACP), the partnerships (OpenAI, Microsoft), and the products (machine payments). No one else has all four. Owning this narrative early means defining the category for a decade.",
     tag: "Vision",
   },
 ];
@@ -49,10 +49,10 @@ export default function Opportunities() {
           className="mb-10"
         >
           <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-stripe-indigo">
-            The Opportunity
+            The Playbook
           </span>
           <h2 className="font-editorial text-[1.75rem] md:text-[2rem] mt-2 tracking-[-0.01em] text-stripe-navy">
-            Missed narrative opportunities
+            Four moves to expand Stripe&rsquo;s reach
           </h2>
         </motion.div>
 

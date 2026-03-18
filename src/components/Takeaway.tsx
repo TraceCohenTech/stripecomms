@@ -10,7 +10,6 @@ const fadeUp = {
 export default function Takeaway() {
   return (
     <section className="py-16 md:py-24 relative overflow-hidden">
-      {/* Subtle gradient backdrop */}
       <div className="absolute inset-0 opacity-30"
         style={{
           background: "radial-gradient(ellipse 80% 50% at 50% 50%, rgba(99,91,255,0.08) 0%, transparent 70%)"
@@ -26,16 +25,16 @@ export default function Takeaway() {
           <div className="w-10 h-0.5 bg-gradient-to-r from-stripe-indigo to-stripe-cyan mx-auto mb-8 rounded-full" />
 
           <h2 className="font-editorial text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] leading-[1.2] tracking-[-0.02em] text-stripe-navy">
-            The product has already become something much bigger than payments.{" "}
+            The product has already become something extraordinary.{" "}
             <span className="text-stripe-slate/50">
-              The messaging has not fully caught up.
+              The story can be just as big.
             </span>
           </h2>
 
           <p className="mt-6 text-[15px] md:text-base text-stripe-slate max-w-xl mx-auto leading-relaxed">
-            If Stripe wants to shape the next decade of internet commerce,
-            it should communicate less like a product suite and more like
-            the system beneath the economy.
+            Stripe has the scale, the vision, and the products to define the next era of internet commerce.
+            The opportunity is to communicate less like a product suite and more like
+            the system beneath the economy — because that&rsquo;s what it already is.
           </p>
 
           <div className="w-10 h-0.5 bg-stripe-border mx-auto mt-8 rounded-full" />

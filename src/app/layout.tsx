@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Stripe Undersells What It Has Become — A Strategic Communications Critique",
-  description: "The product evolved from payments API to financial operating system. The communications still describe the parts more clearly than the whole.",
+  title: "Stripe's Biggest Untold Story — A Strategic Communications Opportunity",
+  description: "Stripe has built something far bigger than payments. Here's the opportunity to tell that story more explicitly.",
   openGraph: {
-    title: "Stripe Undersells What It Has Become",
-    description: "A strategic communications critique: the product evolved from payments API to financial operating system.",
+    title: "Stripe's Biggest Untold Story",
+    description: "A strategic communications opportunity: the product has become a financial operating system. The story can go bigger.",
   },
 };
 

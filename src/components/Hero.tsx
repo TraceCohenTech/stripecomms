@@ -25,7 +25,7 @@ export default function Hero() {
             >
               <div className="w-1.5 h-1.5 rounded-full bg-stripe-indigo" />
               <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-stripe-slate/60">
-                Strategic Communications Critique
+                Strategic Communications Opportunity
               </span>
             </motion.div>
 
@@ -33,9 +33,9 @@ export default function Hero() {
               custom={1} initial="hidden" animate="visible" variants={fadeUp}
               className="font-editorial text-[2.5rem] md:text-[3.25rem] lg:text-[3.75rem] leading-[1.08] tracking-[-0.025em] text-stripe-navy mb-5"
             >
-              Stripe undersells what{" "}
+              Stripe&rsquo;s biggest{" "}
               <span className="italic bg-gradient-to-r from-stripe-indigo to-stripe-blue bg-clip-text text-transparent">
-                it has become.
+                untold story.
               </span>
             </motion.h1>
 
@@ -43,8 +43,9 @@ export default function Hero() {
               custom={2} initial="hidden" animate="visible" variants={fadeUp}
               className="text-[17px] md:text-lg text-stripe-slate leading-relaxed max-w-lg mb-8"
             >
-              The product evolved from payments API to financial operating system.
-              The communications still describe the parts more clearly than the whole.
+              Stripe has evolved from payments API to financial operating system.
+              There&rsquo;s an extraordinary opportunity to tell that story more explicitly — and reach
+              entirely new audiences because of it.
             </motion.p>
 
             <motion.div
@@ -52,19 +53,19 @@ export default function Hero() {
               className="flex flex-wrap gap-3"
             >
               <a
-                href="#critique"
+                href="#scale"
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-stripe-navy text-white text-sm font-medium rounded-full hover:bg-stripe-navy/90 transition-all duration-200 shadow-[0_1px_2px_rgba(0,0,0,0.1)]"
               >
-                Read the critique
+                See the opportunity
                 <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                   <path d="M6 1v10m0 0l4-4m-4 4L2 7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </a>
               <a
-                href="#gaps"
+                href="#blind-spot"
                 className="inline-flex items-center gap-2 px-5 py-2.5 border border-stripe-border text-stripe-navy text-sm font-medium rounded-full hover:border-stripe-slate/30 hover:bg-white transition-all duration-200"
               >
-                View narrative gaps
+                Explore the untold story
               </a>
             </motion.div>
           </div>
@@ -80,7 +81,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Bottom gradient fade into next section */}
       <div className="h-px bg-gradient-to-r from-transparent via-stripe-border to-transparent" />
     </section>
   );

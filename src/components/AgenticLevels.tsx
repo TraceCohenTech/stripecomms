@@ -60,16 +60,15 @@ export default function AgenticLevels() {
             The Vision
           </span>
           <h2 className="font-editorial text-[1.75rem] md:text-[2rem] mt-2 tracking-[-0.01em] text-stripe-navy">
-            Stripe defined the 5 levels of agentic commerce
+            Stripe already defined the future of AI commerce
           </h2>
           <p className="text-stripe-slate text-[15px] mt-2 max-w-lg">
-            Like self-driving levels for autonomous vehicles — but for AI-powered buying.
-            This framework was buried in a PDF annual letter. It should be defining the industry.
+            Five levels of agentic commerce — like self-driving levels for autonomous buying.
+            This framework could define an entire industry. Right now it lives in a PDF.
           </p>
         </motion.div>
 
         <div className="relative">
-          {/* Vertical progress line */}
           <div className="absolute left-[23px] md:left-[27px] top-4 bottom-4 w-px bg-gradient-to-b from-stripe-cyan via-stripe-indigo to-stripe-border" />
 
           <div className="space-y-2">
@@ -84,14 +83,12 @@ export default function AgenticLevels() {
                   transition={{ delay: i * 0.08, duration: 0.4 }}
                   className="group relative flex gap-4 md:gap-5"
                 >
-                  {/* Level indicator */}
                   <div className="relative z-10 shrink-0 w-[46px] md:w-[54px] h-[46px] md:h-[54px] rounded-xl bg-white border border-stripe-border flex items-center justify-center group-hover:border-stripe-indigo/30 transition-colors duration-300">
                     <span className="text-lg md:text-xl font-editorial font-semibold text-stripe-navy">
                       {item.level}
                     </span>
                   </div>
 
-                  {/* Content */}
                   <div className="flex-1 rounded-xl border border-stripe-border bg-white p-4 md:p-5 group-hover:border-stripe-indigo/20 group-hover:shadow-[0_2px_12px_rgba(99,91,255,0.05)] transition-all duration-300">
                     <div className="flex items-center gap-2 mb-1.5">
                       <h3 className="text-[15px] font-semibold text-stripe-navy">
@@ -120,7 +117,7 @@ export default function AgenticLevels() {
         >
           <div className="w-0.5 h-10 bg-gradient-to-b from-stripe-indigo to-stripe-cyan rounded-full shrink-0 mt-0.5" />
           <p className="text-sm text-stripe-slate/60 leading-relaxed max-w-lg">
-            Stripe already built the tools for this future: Agentic Commerce Protocol with OpenAI, shopping in ChatGPT, machine payments via stablecoins. The industry is at Level 1. Stripe is building for Level 5. Almost nobody knows.
+            Stripe already built the tools: Agentic Commerce Protocol with OpenAI, shopping in ChatGPT, machine payments via stablecoins. The industry is at Level 1. Stripe is building for Level 5. That&rsquo;s a story worth telling loudly.
           </p>
         </motion.div>
       </div>

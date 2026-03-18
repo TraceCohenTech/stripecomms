@@ -9,7 +9,7 @@ const currentItems = [
   { text: "Modular tools", sub: "Pick what you need" },
 ];
 
-const shouldItems = [
+const nextItems = [
   { text: "Financial operating system", sub: "Platform-level positioning" },
   { text: "System-level value", sub: "Greater than sum of parts" },
   { text: "CFO + operator relevance", sub: "Executive audience" },
@@ -32,10 +32,10 @@ export default function MessagingGaps() {
           className="mb-10"
         >
           <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-stripe-indigo">
-            The Gap
+            The Evolution
           </span>
           <h2 className="font-editorial text-[1.75rem] md:text-[2rem] mt-2 tracking-[-0.01em] text-stripe-navy">
-            Where the messaging lags the product
+            Where the story could go next
           </h2>
         </motion.div>
 
@@ -46,20 +46,20 @@ export default function MessagingGaps() {
           transition={{ delay: 0.1, duration: 0.5 }}
           className="grid md:grid-cols-2 overflow-hidden rounded-xl border border-stripe-border"
         >
-          {/* Current */}
+          {/* Current — what's working */}
           <div className="p-6 md:p-8 bg-white">
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-1.5 h-1.5 rounded-full bg-stripe-slate/30" />
+              <div className="w-1.5 h-1.5 rounded-full bg-stripe-cyan" />
               <span className="text-[11px] font-semibold tracking-[0.1em] uppercase text-stripe-slate/50">
-                What Stripe says now
+                What Stripe already does well
               </span>
             </div>
             <div className="space-y-3.5">
               {currentItems.map((item, i) => (
                 <div key={i} className="group flex items-start gap-3 py-1">
-                  <span className="text-stripe-border mt-0.5 text-xs leading-none">&#9472;</span>
+                  <span className="text-stripe-cyan mt-0.5 text-xs leading-none">&#10003;</span>
                   <div>
-                    <span className="text-sm font-medium text-stripe-slate group-hover:text-stripe-navy transition-colors duration-200 block">
+                    <span className="text-sm font-medium text-stripe-navy group-hover:text-stripe-indigo transition-colors duration-200 block">
                       {item.text}
                     </span>
                     <span className="text-xs text-stripe-slate/50">{item.sub}</span>
@@ -69,16 +69,16 @@ export default function MessagingGaps() {
             </div>
           </div>
 
-          {/* Should */}
+          {/* Next — where it could go */}
           <div className="p-6 md:p-8 bg-stripe-navy text-white">
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-1.5 h-1.5 rounded-full bg-stripe-cyan" />
+              <div className="w-1.5 h-1.5 rounded-full bg-stripe-indigo" />
               <span className="text-[11px] font-semibold tracking-[0.1em] uppercase text-white/40">
-                What Stripe should say
+                Where the messaging could expand
               </span>
             </div>
             <div className="space-y-3.5">
-              {shouldItems.map((item, i) => (
+              {nextItems.map((item, i) => (
                 <div key={i} className="group flex items-start gap-3 py-1">
                   <span className="text-stripe-indigo mt-0.5 text-xs leading-none">&#10230;</span>
                   <div>

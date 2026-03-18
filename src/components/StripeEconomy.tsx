@@ -64,7 +64,6 @@ const fadeUp = {
 export default function StripeEconomy() {
   return (
     <section id="scale" className="py-16 md:py-20 bg-stripe-navy text-white overflow-hidden relative">
-      {/* Background texture */}
       <div className="absolute inset-0 opacity-[0.03]"
         style={{
           backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)",
@@ -82,10 +81,10 @@ export default function StripeEconomy() {
             The Scale
           </span>
           <h2 className="font-editorial text-[1.75rem] md:text-[2rem] mt-2 tracking-[-0.01em] text-white">
-            This is not a payments company. It&rsquo;s an economy.
+            Stripe isn&rsquo;t a payments company. It&rsquo;s an economy.
           </h2>
           <p className="text-white/50 text-[15px] mt-2 max-w-lg">
-            These numbers tell the story of a financial operating system. Stripe presents most of them as footnotes.
+            These numbers tell the story of a financial operating system. Surfacing them more prominently could reshape how the market understands Stripe.
           </p>
         </motion.div>
 
@@ -114,7 +113,6 @@ export default function StripeEconomy() {
           ))}
         </div>
 
-        {/* Kicker line */}
         <motion.div
           initial="hidden" whileInView="visible"
           viewport={{ once: true }}
@@ -124,8 +122,8 @@ export default function StripeEconomy() {
         >
           <div className="w-0.5 h-10 bg-gradient-to-b from-stripe-indigo to-stripe-cyan rounded-full shrink-0 mt-0.5" />
           <p className="text-sm text-white/40 leading-relaxed max-w-lg">
-            The homepage headline — &ldquo;Financial infrastructure to grow your revenue&rdquo; — doesn&rsquo;t
-            hint at any of this. These stats never appear on stripe.com.
+            Most of these stats live only in the annual letter. Making them central to the narrative
+            could unlock entirely new audiences — CFOs, board members, policymakers — who don&rsquo;t yet understand the scale.
           </p>
         </motion.div>
       </div>
