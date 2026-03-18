@@ -17,7 +17,7 @@ export default function Hero() {
     <section id="thesis" className="relative stripe-gradient-bg overflow-hidden">
       <div className="dot-pattern absolute inset-0 opacity-50" />
       <div className="relative max-w-6xl mx-auto px-6 md:px-10 lg:px-16 pt-20 pb-16 md:pt-28 md:pb-20">
-        <div className="grid lg:grid-cols-[1fr,360px] gap-10 lg:gap-14 items-center">
+        <div className="grid lg:grid-cols-[1fr,420px] gap-10 lg:gap-12 items-center">
           <div>
             <motion.div
               custom={0} initial="hidden" animate="visible" variants={fadeUp}
