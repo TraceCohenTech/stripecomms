@@ -6,12 +6,12 @@ import { motion, AnimatePresence } from "framer-motion";
 const sections = [
   { id: "thesis", label: "Thesis" },
   { id: "scale", label: "Scale" },
-  { id: "critique", label: "Critique" },
+  { id: "critique", label: "Opportunity" },
   { id: "platform", label: "Platform" },
-  { id: "blind-spot", label: "Blind Spots" },
-  { id: "gaps", label: "Gaps" },
+  { id: "blind-spot", label: "Untold" },
   { id: "agentic", label: "Agentic" },
-  { id: "opportunities", label: "Opportunities" },
+  { id: "opportunities", label: "Playbook" },
+  { id: "about", label: "About" },
 ];
 
 export default function Navigation() {

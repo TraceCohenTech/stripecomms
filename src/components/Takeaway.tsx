@@ -26,7 +26,7 @@ export default function Takeaway() {
 
           <h2 className="font-editorial text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] leading-[1.2] tracking-[-0.02em] text-stripe-navy">
             The product has already become something extraordinary.{" "}
-            <span className="text-stripe-slate/50">
+            <span className="text-stripe-slate/70">
               The story can be just as big.
             </span>
           </h2>

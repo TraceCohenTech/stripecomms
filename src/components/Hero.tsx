@@ -24,7 +24,7 @@ export default function Hero() {
               className="inline-flex items-center gap-2 mb-5"
             >
               <div className="w-1.5 h-1.5 rounded-full bg-stripe-indigo" />
-              <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-stripe-slate/60">
+              <span className="text-[11px] font-semibold tracking-[0.12em] uppercase text-stripe-slate">
                 Strategic Communications Opportunity
               </span>
             </motion.div>
@@ -33,10 +33,8 @@ export default function Hero() {
               custom={1} initial="hidden" animate="visible" variants={fadeUp}
               className="font-editorial text-[2.5rem] md:text-[3.25rem] lg:text-[3.75rem] leading-[1.08] tracking-[-0.025em] text-stripe-navy mb-5"
             >
-              Stripe&rsquo;s biggest{" "}
-              <span className="italic bg-gradient-to-r from-stripe-indigo to-stripe-blue bg-clip-text text-transparent">
-                untold story.
-              </span>
+              <span className="whitespace-nowrap">Stripe&rsquo;s biggest</span>{" "}
+              <span className="italic bg-gradient-to-r from-stripe-indigo to-stripe-blue bg-clip-text text-transparent whitespace-nowrap">untold story.</span>
             </motion.h1>
 
             <motion.p

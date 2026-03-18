@@ -83,7 +83,7 @@ export default function StripeEconomy() {
           <h2 className="font-editorial text-[1.75rem] md:text-[2rem] mt-2 tracking-[-0.01em] text-white">
             Stripe isn&rsquo;t a payments company. It&rsquo;s an economy.
           </h2>
-          <p className="text-white/50 text-[15px] mt-2 max-w-lg">
+          <p className="text-white/70 text-[15px] mt-2 max-w-lg">
             These numbers tell the story of a financial operating system. Surfacing them more prominently could reshape how the market understands Stripe.
           </p>
         </motion.div>
@@ -106,7 +106,7 @@ export default function StripeEconomy() {
               <p className="text-sm text-white/70 font-medium leading-snug">
                 {stat.label}
               </p>
-              <p className="text-[11px] text-white/30 mt-1">
+              <p className="text-[11px] text-white/50 mt-1">
                 {stat.context}
               </p>
             </motion.div>
@@ -121,7 +121,7 @@ export default function StripeEconomy() {
           className="mt-8 flex items-start gap-3"
         >
           <div className="w-0.5 h-10 bg-gradient-to-b from-stripe-indigo to-stripe-cyan rounded-full shrink-0 mt-0.5" />
-          <p className="text-sm text-white/40 leading-relaxed max-w-lg">
+          <p className="text-sm text-white/60 leading-relaxed max-w-lg">
             Most of these stats live only in the annual letter. Making them central to the narrative
             could unlock entirely new audiences — CFOs, board members, policymakers — who don&rsquo;t yet understand the scale.
           </p>

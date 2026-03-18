@@ -10,6 +10,7 @@ import MessagingGaps from "@/components/MessagingGaps";
 import AgenticLevels from "@/components/AgenticLevels";
 import Opportunities from "@/components/Opportunities";
 import Takeaway from "@/components/Takeaway";
+import AboutTrace from "@/components/AboutTrace";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
         <AgenticLevels />
         <Opportunities />
         <Takeaway />
+        <AboutTrace />
       </main>
       <Footer />
     </>
